@@ -1,4 +1,4 @@
-const input = +`7`.trim();
+// const input = +`7`.trim();
 
 console.time("perf");
 
