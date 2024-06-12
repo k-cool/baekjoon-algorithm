@@ -26,7 +26,7 @@ console.time("perf");
 // console.log(idx);
 
 // 2차
-const input = require("fs").readFileSync("/dev/stdin").toString().trim().split(" ").map(Number);
+// const input = require("fs").readFileSync("/dev/stdin").toString().trim().split(" ").map(Number);
 let result;
 let cnt = 0;
 
