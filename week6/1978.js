@@ -24,10 +24,4 @@ console.time("perf");
 
 // console.log(cnt);
 
-// 2차
-const max = Math.max(...input);
-const memo = {};
-
-for (let i = 2; i < max; i++) {}
-
 console.timeEnd("perf");
