@@ -7,7 +7,7 @@ const input = `1
 console.time("perf");
 
 // 1차
-const input = require("fs").readFileSync("/dev/stdin").toString().trim().split("\n").map(Number);
+// const input = require("fs").readFileSync("/dev/stdin").toString().trim().split("\n").map(Number);
 const [M, N] = input;
 const sosu = [];
 

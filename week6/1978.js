@@ -11,16 +11,16 @@ console.time("perf");
 
 // 1차
 // const input = require("fs").readFileSync("/dev/stdin").toString().trim().split("\n")[1].split(" ").map(Number);
-// let cnt = 0;
+let cnt = 0;
 
-// input.forEach((num) => {
-//   if (num === 1) return;
-//   for (let i = 2; i < Math.sqrt(num) + 1; i++) {
-//     if (num === 2) break;
-//     if (num % i === 0) return;
-//   }
-//   cnt += 1;
-// });
+input.forEach((num) => {
+  if (num === 1) return;
+  for (let i = 2; i < Math.sqrt(num) + 1; i++) {
+    if (num === 2) break;
+    if (num % i === 0) return;
+  }
+  cnt += 1;
+});
 
 // console.log(cnt);
 
